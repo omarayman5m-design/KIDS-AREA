@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hᴀᴘᴘʏ Tɪᴍᴇs Kɪᴅs Aʀᴇᴀ</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="container" id="nav-shado">
+            <div class="logo">
+                <img src="Screenshot 2025-11-25 113310.png" alt="لوغو منطقة الألعاب" />
+                <div>
+                    <div class="title">KIDS AREA</div>
+                    <div class="subtitle" id="Main-top">The best time to play and have fun</div>
+                </div>
+            </div>
+            <nav>
+                <a data-page="home" onclick="showPage('home')">الرئيسية</a>
+                <a data-page="about" onclick="showPage('about')">محتويات المكان</a>
+                <a data-page="games" onclick="showPage('games')">أشكال الألعاب</a>
+                <a data-page="#contact" onclick="showPage('contact')">تواصل / دخول</a>
+            </nav>
+    </header>
+
+    <main class="container" id="HOME">
+        <section id="home" class="page active">
+            <div class="hero" style="background-image: url('/mnt/data/Screenshot 2025-11-25 113310.png')";>
+                <div class="hero-overlay">
+                    <h1>Hᴀᴘᴘʏ Tɪᴍᴇs Kɪᴅs Aʀᴇᴀ</h1>
+                    <p class="lead">مساحة ممتعة وآمنة للأطفال من جميع الأعمار. ألعاب ملونة، أنشطة تعليمية، وورش عمل إبداعية بإشراف فريق من الخبراء.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn" onclick="showPage('contact')">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="intro-text" id="why-chose">
+                <h2>لماذا تختارنا؟</h2>
+                <ul>
+                <li>أمان كامل وخامات مطابقة لمعايير السلامة.</li>
+                <li>مشرفون متخصصون ورؤية واضحة لأنشطة الطفل.</li>
+                <li>مساحات منفصلة لكل فئة عمرية لتجربة مناسبة وآمنة.</li>
+                <li>أعياد ميلاد وحفلات تُنظم مع باقات مميزة.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about" class="page">
+            <h2>محتويات المكان</h2>
+            <p> المنطقة مصممة بعناية لتجميع أفضل عناصر المرح والتعلّم في مكان واحد.</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>منطقة الأطفال الصغار</h3>
+                    <p> ألعاب إسفنجية، منزل لعب، ولعبة الكرات الآمنة للذين تبدأ أعمارهم من 2 إلى 4 سنوات.</p>
+                </div>
+                <div class="card">
+                    <h3>ألعاب تفاعلية</h3>
+                    <p> شاشات تعليمية، ألعاب ذهنية، وتجارب STEM المبسطة للأطفال من 5 سنوات فما فوق.</p>
+                </div>
+                <div class="card">
+                <h3>منطقة المغامرات</h3>
+                <p>زحاليق متعددة المستويات، ترامبولين صغير، وجسر الحبال الآمن.</p>
+                </div>
+                <div class="card">
+                    <h3>ورش الفن والإبداع</h3>
+                    <p>جلسات تلوين، تشكيل صلصال، وأنشطة فنية بإشراف مدربات مختصات.</p>
+                </div>
+            </div>
+            <div class="features" style="margin-top: 16px">
+                <h3>خدمات إضافية</h3>
+                <p> 
+                1-كافيتريا للعائلات
+                <br>
+                2-منطقة استراحة
+                <br>
+                3-خدمة Wi-Fi مجانية
+                <br>
+                4-حجز أونلاين للأعياد والفعاليات
+            </p>
+            </div>
+        </section>
+        <section id="gallery" class="gallery section dark">
+            <section id="games" class="page" >
+                <h2>أشكال الألعاب</h2>
+                <div class="section-heading">
+                    <div class="gallery-grid">
+                        <button class="gallery-item" data-index="0">
+                            <img src="image1.jpg" alt="Grilled platter" loading="lazy">
+                        </button>
+                        <button class="gallery-item" data-index="1">
+                            <img src="image2.jpg" alt="Colorful bowl" loading="lazy">
+                        </button>
+                        <button class="gallery-item" data-index="2">
+                            <img src="img3.jpeg" alt="Gourmet salad" loading="lazy">
+                        </button>
+                        <button class="gallery-item" data-index="3">
+                            <img src="image4.jpg" alt="Toasts with egg" loading="lazy">
+                        </button>
+                        <button class="gallery-item" data-index="4">
+                            <img src="image5.jpg" alt="Veggie bowl" loading="lazy">
+                        </button>
+                        <button class="gallery-item" data-index="5">
+                            <img src="image6.jpg" alt="Meatballs" loading="lazy">
+                        </button>
+                </div>
+            </section>
+        </section>
+        <section id="contact" class="page">
+            <h2>تواصل معنا</h2>
+            <p>للحجز والاستفسار اتصل بنا أو سجل دخولك لإدارة الحجوزات.</p>
+            <div class="contact-box">
+                <div class="phone" style="line-height:60px;">
+                    <h3>احجز عبر الهاتف</h3>
+                    <p style="font-size: 20px; font-weight: 800">01033323560</p>
+                    <p>ساعات العمل: 9 صباحاً - 9 مساءً</p>
+                </div>
+                <div class="login">
+                    <h3 style="color: #000000;">تسجيل الدخول</h3>
+                    <input placeholder="البريد الإلكتروني أو رقم الهاتف" />
+                    <input placeholder="كلمة المرور" type="password" />
+                    <button class="btn">دخول</button>
+                </div>
+            </div>
+            <div class="location" style="margin-top: 12px">
+                <h3>العنوان</h3>
+                <p>شارع المرح، الحي العائلي — قريب من المركز التجاري.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container" style="text-align: center; margin: 30px 0 60px; color: #000000;margin-right: 100px;">
+        <small>© جميع الحقوق محفوظة - منطقة ألعاب الأطفال • تصميم تجريبي</small>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        function showPage(page) {
+        document
+            .querySelectorAll(".page")
+            .forEach((p) => p.classList.remove("active"));
+        document.getElementById(page).classList.add("active");
+        }
+    </script>
+</body>
+</html>
